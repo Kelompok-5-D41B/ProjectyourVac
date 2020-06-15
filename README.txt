@@ -33,4 +33,4 @@ Programmer	: Giusty Fadh Wiranapoera
 
 Proses 1 terdapat pada folder hasil_scraping
 Proses 2 terdapat pada folder hasil_labeling
-Proses 3 terdapat pada folder Main Web
+Proses 3 terdapat pada folder main_web
