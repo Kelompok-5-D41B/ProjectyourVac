@@ -23,10 +23,10 @@ yyyyyyy           yyyyyyy ooooooooooo   uuuuuu    uuuuuu rrrrr   rrrrrrrrrV:::::
   yyyyyyy                                                                                                                             
                                                                                                                                       
 Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN
-Manager : Ibu Ade Khodijah
-Leader : Sabar Muhamad Itikap
-Analyst : Sanjaya Wisnu Ramadhan
-Analyst : Syahid Abdurrahman
-Designer : Wafi Khoerun
-Designer : Johan Salusu
-Programmer : Giusty Ramadhan Fadh
+Manager		: Ade Khodijah, M.T.
+Leader		: Sabar Muhamad Itikap
+Analyst		: Sanjaya Wisnu Ramadhan
+Analyst		: Muh. Syahid Abdurrahman
+Designer	: Wafi Khoerun N.
+Designer	: Johan Salusu
+Programmer	: Giusty Fadh Wiranapoera
