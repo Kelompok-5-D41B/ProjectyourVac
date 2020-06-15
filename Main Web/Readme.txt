@@ -1,5 +1,6 @@
-Thanks for downloading this template!
+Menggunakan template dari internet
 
+Terima kasih kepada:
 Template Name: Laura
 Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
 Author: BootstrapMade.com
