@@ -30,3 +30,7 @@ Analyst		: Muh. Syahid Abdurrahman
 Designer	: Wafi Khoerun N.
 Designer	: Johan Salusu
 Programmer	: Giusty Fadh Wiranapoera
+
+Proses 1 terdapat pada folder hasil_scraping
+Proses 2 terdapat pada folder hasil_labeling
+Proses 3 terdapat pada folder Main Web
