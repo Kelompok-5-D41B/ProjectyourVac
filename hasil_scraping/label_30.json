@@ -1,0 +1,1305 @@
+[
+  {
+    "completions": [
+      {
+        "id": 1001,
+        "lead_time": 42.988,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "tEvovWSMvw",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 61.5,
+              "rectanglelabels": [
+                "Forest"
+              ],
+              "rotation": 0,
+              "width": 111.48958333333333,
+              "x": 0,
+              "y": 2
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "khcJYT4hlq",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 8.5,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 33.333333333333336,
+              "x": 1.1111111111111112,
+              "y": 65.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/52/25/cb/nuart-sculpture-park.jpg",
+      "name": "Taman Patung NuArt"
+    },
+    "id": 1
+  },
+  {
+    "completions": [
+      {
+        "id": 11001,
+        "lead_time": 15.082,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "dw1D6uuUHD",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 22.340425531914892,
+              "rectanglelabels": [
+                "Water"
+              ],
+              "rotation": 0,
+              "width": 58,
+              "x": 40,
+              "y": 73.93617021276596
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "YNBZ9aADaW",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 76.59574468085107,
+              "rectanglelabels": [
+                "Forest"
+              ],
+              "rotation": 0,
+              "width": 92.8,
+              "x": 5.6,
+              "y": 2.127659574468085
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/0b/51/54/71/img-20160511-085634-largejpg.jpg",
+      "name": "Sumber Air Panas Sari Ater"
+    },
+    "id": 11
+  },
+  {
+    "completions": [
+      {
+        "id": 110001,
+        "lead_time": 52.696,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "Fg3HS40WG5",
+            "original_height": 168,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 16.666666666666668,
+              "rectanglelabels": [
+                "Mountain"
+              ],
+              "rotation": 0,
+              "width": 78.8,
+              "x": 1.6,
+              "y": 6.5476190476190474
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "1gb58JrTF2",
+            "original_height": 168,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 17.857142857142858,
+              "rectanglelabels": [
+                "Water"
+              ],
+              "rotation": 0,
+              "width": 14,
+              "x": 0.4,
+              "y": 79.76190476190476
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "ZmjtnV7OLt",
+            "original_height": 168,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 41.666666666666664,
+              "rectanglelabels": [
+                "tumbuhan"
+              ],
+              "rotation": 0,
+              "width": 32,
+              "x": 22,
+              "y": 50.595238095238095
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "GKCtRVVbSD",
+            "original_height": 168,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 39.88095238095238,
+              "rectanglelabels": [
+                "tumbuhan"
+              ],
+              "rotation": 0,
+              "width": 25.2,
+              "x": 66.4,
+              "y": 42.857142857142854
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/0e/61/0a/4c/landscape.jpg",
+      "name": "Tektona Waterpark"
+    },
+    "id": 110
+  },
+  {
+    "completions": [
+      {
+        "id": 111001,
+        "lead_time": 3.237,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 111
+  },
+  {
+    "completions": [
+      {
+        "id": 112001,
+        "lead_time": 8.175,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "eij_bhadHQ",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 20,
+              "rectanglelabels": [
+                "Monument"
+              ],
+              "rotation": 0,
+              "width": 93.33333333333333,
+              "x": 2.7777777777777777,
+              "y": 29.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/17/45/30/04/plaza-cikapundung-river.jpg",
+      "name": "Plaza Cikapundung River Spot"
+    },
+    "id": 112
+  },
+  {
+    "completions": [
+      {
+        "id": 114001,
+        "lead_time": 1.655,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 114
+  },
+  {
+    "completions": [
+      {
+        "id": 119001,
+        "lead_time": 24.752,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "tun1AAtIZT",
+            "original_height": 450,
+            "original_width": 338,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 38.466422466422465,
+              "rectanglelabels": [
+                "manusia"
+              ],
+              "rotation": 0,
+              "width": 97.23154845891989,
+              "x": -0.0901797223704979,
+              "y": 54.21123321123321
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "LM13gdy_GK",
+            "original_height": 450,
+            "original_width": 338,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 53.111111111111114,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 98.52071005917159,
+              "x": 1.183431952662722,
+              "y": 0.6666666666666666
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/74/e7/43/chapel-kabar-gembira.jpg",
+      "name": "Chapel Kabar Gembira maria"
+    },
+    "id": 119
+  },
+  {
+    "completions": [
+      {
+        "id": 123001,
+        "lead_time": 30.929,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "t4JRykwe21",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 52,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 96.11111111111111,
+              "x": 1.1111111111111112,
+              "y": 19.5
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "jOb8Sm3lSQ",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 16.5,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 92.77777777777777,
+              "x": 2.2222222222222223,
+              "y": 78
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/12/32/f6/55/20180131-074059-largejpg.jpg",
+      "name": "Episode Factory Outlet"
+    },
+    "id": 123
+  },
+  {
+    "completions": [
+      {
+        "id": 125001,
+        "lead_time": 1.576,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 125
+  },
+  {
+    "completions": [
+      {
+        "id": 138001,
+        "lead_time": 2.364,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 138
+  },
+  {
+    "completions": [
+      {
+        "id": 141001,
+        "lead_time": 4.703,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 141
+  },
+  {
+    "completions": [
+      {
+        "id": 18001,
+        "lead_time": 27.105,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "d7p9jFm9jn",
+            "original_height": 166,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 36.144578313253014,
+              "rectanglelabels": [
+                "Water"
+              ],
+              "rotation": 0,
+              "width": 46.8,
+              "x": 34.8,
+              "y": 51.204819277108435
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "YBVdrcbLBi",
+            "original_height": 166,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 37.95180722891566,
+              "rectanglelabels": [
+                "Mountain"
+              ],
+              "rotation": 0,
+              "width": 90.8,
+              "x": 3.2,
+              "y": 7.831325301204819
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "uJDyjuAHV0",
+            "original_height": 166,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 45.18072289156626,
+              "rectanglelabels": [
+                "Playground"
+              ],
+              "rotation": 0,
+              "width": 92.8,
+              "x": 4,
+              "y": 50
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/08/be/60/3a/camping-park.jpg",
+      "name": "Wisata Air Panas Ciater"
+    },
+    "id": 18
+  },
+  {
+    "completions": [
+      {
+        "id": 19001,
+        "lead_time": 25.481,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "6KnWMCJqTv",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 43.850267379679146,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 20.4,
+              "x": 58.8,
+              "y": 55.080213903743314
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "zMWDlf-Q0X",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 93.04812834224599,
+              "rectanglelabels": [
+                "Forest"
+              ],
+              "rotation": 0,
+              "width": 96,
+              "x": 2,
+              "y": 2.6737967914438503
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/04/0c/be/d2/forest-park-conservation.jpg",
+      "name": "Taman Hutan Raya Tahura Ir. H. Juanda"
+    },
+    "id": 19
+  },
+  {
+    "completions": [
+      {
+        "id": 20001,
+        "lead_time": 57.242,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "bO0VCvQa46",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 87.5,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 41.111111111111114,
+              "x": 58.333333333333336,
+              "y": 1
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "3kb6ZQ98fv",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 29,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 47.22222222222222,
+              "x": 3.3333333333333335,
+              "y": 54.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/61/04/e8/alun-alun-bandung.jpg",
+      "name": "Alun Alun Bandung"
+    },
+    "id": 20
+  },
+  {
+    "completions": [
+      {
+        "id": 33001,
+        "lead_time": 18.266,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "rGuhsPSfNt",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 42,
+              "rectanglelabels": [
+                "Monument"
+              ],
+              "rotation": 0,
+              "width": 68.88888888888889,
+              "x": 28.88888888888889,
+              "y": 36
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "2XgCkBy7HE",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 37.5,
+              "rectanglelabels": [
+                "Water"
+              ],
+              "rotation": 0,
+              "width": 95.55555555555556,
+              "x": 1.6666666666666667,
+              "y": 61.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/10/fd/da/78/batu-air-wot-batu-bandung.jpg",
+      "name": "Wot Batu"
+    },
+    "id": 33
+  },
+  {
+    "completions": [
+      {
+        "id": 46001,
+        "lead_time": 8.184,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "AfECx6-3H-",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 94.5,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 93.33333333333333,
+              "x": 2.7777777777777777,
+              "y": 2
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/16/73/e5/e6/berbagai-outlet.jpg",
+      "name": "Braga City Walk"
+    },
+    "id": 46
+  },
+  {
+    "completions": [
+      {
+        "id": 5001,
+        "lead_time": 22.952,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "WuJNBG5hUK",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 64.5,
+              "rectanglelabels": [
+                "manusia"
+              ],
+              "rotation": 0,
+              "width": 70,
+              "x": 4.444444444444445,
+              "y": 34.5
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "Ot6tOgaGXV",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 99,
+              "rectanglelabels": [
+                "NA"
+              ],
+              "rotation": 0,
+              "width": 96.11111111111111,
+              "x": 1.1111111111111112,
+              "y": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/11/c2/b2/d5/ada-pohon-natal-emashehehhee.jpg",
+      "name": "23 Paskal Shopping Centre"
+    },
+    "id": 5
+  },
+  {
+    "completions": [
+      {
+        "id": 52001,
+        "result": [],
+        "skipped": true
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/0a/61/9f/39/een-van-de-verkopers.jpg",
+      "name": "Pasar Barang Antik Cikapundung"
+    },
+    "id": 52
+  },
+  {
+    "completions": [
+      {
+        "id": 54001,
+        "lead_time": 8.688,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "j6kLazuqRd",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 91.48936170212765,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 95.2,
+              "x": 2,
+              "y": 3.723404255319149
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/09/49/dd/4b/museum-sri-baduga.jpg",
+      "name": "Museum Sri Baduga"
+    },
+    "id": 54
+  },
+  {
+    "completions": [
+      {
+        "id": 56001,
+        "lead_time": 29.689,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "tjX_bTtpCE",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 58.51063829787234,
+              "rectanglelabels": [
+                "manusia"
+              ],
+              "rotation": 0,
+              "width": 24,
+              "x": 15.2,
+              "y": 40.42553191489362
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "lL3cxcIe7f",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 39.361702127659576,
+              "rectanglelabels": [
+                "hewan"
+              ],
+              "rotation": 0,
+              "width": 44,
+              "x": 49.6,
+              "y": 47.340425531914896
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "ddvGMURa-e",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 72.87234042553192,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 72,
+              "x": 2.8,
+              "y": 2.127659574468085
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/08/97/b0/3d/lactasari-dairy-farm.jpg",
+      "name": "Lactasari Dairy Farm"
+    },
+    "id": 56
+  },
+  {
+    "completions": [
+      {
+        "id": 57001,
+        "lead_time": 14.714,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "AHwu6dFtql",
+            "original_height": 188,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 95.74468085106383,
+              "rectanglelabels": [
+                "NA"
+              ],
+              "rotation": 0,
+              "width": 98.4,
+              "x": 0.8,
+              "y": 1.5957446808510638
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/07/49/9d/71/ticket-booths.jpg",
+      "name": "CGV Blitz Miko Mall"
+    },
+    "id": 57
+  },
+  {
+    "completions": [
+      {
+        "id": 6001,
+        "lead_time": 8.735,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "G_YGte7dTQ",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 83.42245989304813,
+              "rectanglelabels": [
+                "Monument"
+              ],
+              "rotation": 0,
+              "width": 91.59539170506905,
+              "x": 3.1023041474654365,
+              "y": 3.7433155080213902
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/02/1d/65/12/not-so-ancient-elephant.jpg",
+      "name": "Museum Geologi"
+    },
+    "id": 6
+  },
+  {
+    "completions": [
+      {
+        "id": 63001,
+        "lead_time": 12.544,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "rcXJ9qUafu",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 89.5,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 92.77777777777777,
+              "x": 3.888888888888889,
+              "y": 4.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/09/1d/1c/inside-btc-mall.jpg",
+      "name": "BTC Fashion Mall"
+    },
+    "id": 63
+  },
+  {
+    "completions": [
+      {
+        "id": 71001,
+        "lead_time": 13.114,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "Txx5qlbcM9",
+            "original_height": 166,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 52.91392622963124,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 85.74124564894906,
+              "x": 4.0196997561706365,
+              "y": 25.3211169473686
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/0b/5b/da/47/tampak-samping.jpg",
+      "name": "Gedung Merdeka"
+    },
+    "id": 71
+  },
+  {
+    "completions": [
+      {
+        "id": 73001,
+        "lead_time": 1.782,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 73
+  },
+  {
+    "completions": [
+      {
+        "id": 75001,
+        "lead_time": 16.952,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "hmn8eo1qJ0",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 33,
+              "rectanglelabels": [
+                "Water"
+              ],
+              "rotation": 0,
+              "width": 76.11111111111111,
+              "x": 2.7777777777777777,
+              "y": 66.5
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "jI355emABl",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 61.5,
+              "rectanglelabels": [
+                "Farm"
+              ],
+              "rotation": 0,
+              "width": 94.44444444444444,
+              "x": 5,
+              "y": 20.5
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/0c/4a/55/5a/peta-park.jpg",
+      "name": "Taman Peta"
+    },
+    "id": 75
+  },
+  {
+    "completions": [
+      {
+        "id": 79001,
+        "lead_time": 10.256,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "Nq1sFy7c_A",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 48.5,
+              "rectanglelabels": [
+                "hewan"
+              ],
+              "rotation": 0,
+              "width": 78.88888888888889,
+              "x": 17.22222222222222,
+              "y": 25
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/0d/cd/85/96/this-rabbit-s-child-friendly.jpg",
+      "name": "Taman Kelinci Ciwidey"
+    },
+    "id": 79
+  },
+  {
+    "completions": [
+      {
+        "id": 8001,
+        "lead_time": 17.748,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "4OdZMaaGB2",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 21.925133689839573,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 36.4,
+              "x": 2.8,
+              "y": 73.2620320855615
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "2Hk_EdKUP5",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 65.77540106951872,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 97.2,
+              "x": 0,
+              "y": 9.090909090909092
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/03/fe/6b/9a/rumah-mode-factory-outlet.jpg",
+      "name": "FO Rumah Mode"
+    },
+    "id": 8
+  },
+  {
+    "completions": [
+      {
+        "id": 81001,
+        "lead_time": 9.55,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "WHK4FzH3kX",
+            "original_height": 187,
+            "original_width": 250,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 84.49197860962566,
+              "rectanglelabels": [
+                "Buildings"
+              ],
+              "rotation": 0,
+              "width": 86.4,
+              "x": 10.8,
+              "y": 10.695187165775401
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-f/01/29/c2/67/beautiful-art-deco-lines.jpg",
+      "name": "Gedung De Driekleur  / Gedung Tiga Warna"
+    },
+    "id": 81
+  },
+  {
+    "completions": [
+      {
+        "id": 85001,
+        "lead_time": 20.323,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "-hyjEkU-YT",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 52.5,
+              "rectanglelabels": [
+                "Forest"
+              ],
+              "rotation": 0,
+              "width": 93.88888888888889,
+              "x": 2.7777777777777777,
+              "y": 3.5
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "IBRfnx9u1X",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 29.5,
+              "rectanglelabels": [
+                "Stones"
+              ],
+              "rotation": 0,
+              "width": 93.33333333333333,
+              "x": 2.7777777777777777,
+              "y": 67
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/15/78/bb/15/taman-bougenville-gunung.jpg",
+      "name": "Taman Bougenville"
+    },
+    "id": 85
+  },
+  {
+    "completions": [
+      {
+        "id": 94001,
+        "lead_time": 2.086,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 94
+  },
+  {
+    "completions": [
+      {
+        "id": 95001,
+        "lead_time": 1.866,
+        "result": []
+      }
+    ],
+    "data": {
+      "image": "https://static.tacdn.com/img2/social/no_photo_attraction.gif",
+      "name": "Tidak ada foto yang tersedia"
+    },
+    "id": 95
+  },
+  {
+    "completions": [
+      {
+        "id": 98001,
+        "lead_time": 25.373,
+        "result": [
+          {
+            "from_name": "tag",
+            "id": "zE_rufpg06",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 31,
+              "rectanglelabels": [
+                "Street"
+              ],
+              "rotation": 0,
+              "width": 63.333333333333336,
+              "x": 1.6666666666666667,
+              "y": 64
+            }
+          },
+          {
+            "from_name": "tag",
+            "id": "ZkdESV0UFz",
+            "original_height": 200,
+            "original_width": 180,
+            "source": "$image",
+            "to_name": "img",
+            "type": "rectanglelabels",
+            "value": {
+              "height": 103.14511802575107,
+              "rectanglelabels": [
+                "Farm"
+              ],
+              "rotation": 0,
+              "width": 139.09956422887456,
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-i/17/34/e2/01/happy-farm.jpg",
+      "name": "Happy Farm"
+    },
+    "id": 98
+  }
+]
