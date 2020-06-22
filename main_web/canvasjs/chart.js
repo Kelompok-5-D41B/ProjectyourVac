@@ -1,11 +1,11 @@
-$(document).ready(function () {
-    $.getJSON("Assets/Json/labellingResult.json", function (data) {
+$(document).ready(function() {
+    $.getJSON("Assets/Json/labellingResult.json", function(data) {
         console.log(data);
         var levels = [];
         var biomes = [];
         var animalKind = [];
 
-        $.each(data, function (i, animals) {
+        $.each(data, function(i, animals) {
             //counting each Labels of Level of Organization
             var j = 0;
             var found = false;
@@ -14,8 +14,7 @@ $(document).ready(function () {
                 if (animals["Level of Organization"] == levels[j].levelLabel) {
                     levels[j].y++;
                     found = true;
-                }
-                else
+                } else
                     j++;
             }
             if (!found && (animals["Level of Organization"] != undefined))
@@ -35,8 +34,7 @@ $(document).ready(function () {
                 if (biome == biomes[j].biomeLabel) {
                     biomes[j].y++;
                     found = true;
-                }
-                else
+                } else
                     j++;
             }
             if (!found && (biome != undefined))
@@ -45,8 +43,8 @@ $(document).ready(function () {
 
 
             //counting each Labels of Polygonlabels
-            $.each(animals.tag, function (j, tag) {
-                $.each(tag.polygonlabels, function (k, polygonlabels) {
+            $.each(animals.tag, function(j, tag) {
+                $.each(tag.polygonlabels, function(k, polygonlabels) {
                     j = 0;
                     found = false;
 
@@ -54,8 +52,7 @@ $(document).ready(function () {
                         if (polygonlabels == animalKind[j].polygonlabel) {
                             animalKind[j].y++;
                             found = true;
-                        }
-                        else
+                        } else
                             j++;
                     }
                     if (!found && (polygonlabels != undefined))
@@ -82,27 +79,25 @@ function compare(a, b) {
     return (a.y > b.y) ? 1 : -1;
 }
 
-CanvasJS.addColorSet("greenShades",
-    [//colorSet Array
+CanvasJS.addColorSet("greenShades", [ //colorSet Array
 
-        "#2F4F4F",
-        "#008080",
-        "#2E8B57",
-        "#3CB371",
-        "#90EE90",
-        "#8e6a55",
-        "#abad71",
-        "#8ea594",
-        "#374046"
-    ]);
+    "#2F4F4F",
+    "#008080",
+    "#2E8B57",
+    "#3CB371",
+    "#90EE90",
+    "#8e6a55",
+    "#abad71",
+    "#8ea594",
+    "#374046"
+]);
 
 function createChart(id, title, label, arr) {
     $(id).CanvasJSChart({
         // theme: "dark1",
         animationEnabled: true,
         colorSet: "greenShades",
-        title:
-        {
+        title: {
             text: title,
             fontFamily: "tahoma"
         },
