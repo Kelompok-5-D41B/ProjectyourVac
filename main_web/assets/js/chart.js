@@ -1,82 +1,35 @@
 $(document).ready(function () {
-    $.getJSON("Assets/Json/labellingResult.json", function (data) {
+    $.getJSON("../hasil_scraping/result_sanjay.json", function (data) {
         console.log(data);
-        var levels = [];
-        var biomes = [];
         var animalKind = [];
+        //counting each Labels of Polygonlabels
+        $.each(animals.tag, function (j, tag) {
+            $.each(tag.polygonlabels, function (k, polygonlabels) {
+                j = 0;
+                found = false;
 
-        $.each(data, function (i, animals) {
-            //counting each Labels of Level of Organization
-            var j = 0;
-            var found = false;
-
-            while (j < levels.length && !found) {
-                if (animals["Level of Organization"] == levels[j].levelLabel) {
-                    levels[j].y++;
-                    found = true;
-                }
-                else
-                    j++;
-            }
-            if (!found && (animals["Level of Organization"] != undefined))
-                levels.push({ levelLabel: animals["Level of Organization"], y: 1 });
-
-            //counting each Labels of Biomes
-            j = 0;
-            found = false;
-            var biome;
-
-            if ("Terrestrial Biome" in animals)
-                biome = animals["Terrestrial Biome"];
-            else if ("Aquatic Biome" in animals)
-                biome = animals["Aquatic Biome"];
-
-            while (j < biomes.length && !found) {
-                if (biome == biomes[j].biomeLabel) {
-                    biomes[j].y++;
-                    found = true;
-                }
-                else
-                    j++;
-            }
-            if (!found && (biome != undefined))
-                biomes.push({ biomeLabel: biome, y: 1 });
-
-
-
-            //counting each Labels of Polygonlabels
-            $.each(animals.tag, function (j, tag) {
-                $.each(tag.polygonlabels, function (k, polygonlabels) {
-                    j = 0;
-                    found = false;
-
-                    while (j < animalKind.length && !found) {
-                        if (polygonlabels == animalKind[j].polygonlabel) {
-                            animalKind[j].y++;
-                            found = true;
-                        }
-                        else
-                            j++;
+                while (j < animalKind.length && !found) {
+                    if (polygonlabels == animalKind[j].polygonlabel) {
+                        animalKind[j].y++;
+                        found = true;
                     }
-                    if (!found && (polygonlabels != undefined))
-                        animalKind.push({ polygonlabel: polygonlabels, y: 1 });
+                    else
+                        j++;
+                }
+                if (!found && (polygonlabels != undefined))
+                    animalKind.push({ polygonlabel: polygonlabels, y: 1 });
 
-                });
             });
         });
-        // console.log(levels);
-        // console.log(biomes);
-        // console.log(animalKind);
-        levels.sort(compare);
-        biomes.sort(compare);
-        animalKind.sort(compare);
-
-        createChart("#levelChart", "Level of Organization", "levelLabel", levels);
-        createChart("#biomeChart", "Biomes", "biomeLabel", biomes);
-        createChart("#polygonlabelChart", "Animal Kinds", "polygonlabel", animalKind);
-
     });
+    // console.log(animalKind);
+    animalKind.sort(compare);
+
+
+    createChart("#polygonlabelChart", "Animal Kinds", "polygonlabel", animalKind);
+
 });
+
 
 function compare(a, b) {
     return (a.y > b.y) ? 1 : -1;
@@ -136,7 +89,7 @@ bool Buildings;//red
 	bool Food;//maroon
     bool Education;//lime
 
-    Alam            : Tree-Water-Mountain-Stones 
+    Alam            : Tree-Water-Mountain-Stones
     Kota            : Worship-Cars-Street-Education
     Keluarga        : farm-Playground-Pool-Food
     Sejarah & Seni  : Art-Monument

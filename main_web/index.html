@@ -46,6 +46,28 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
+    <script type = "text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+        var dataPoints = [];
+        var chart = new CanvasJS.Chart("chartContainer",{
+            title:{
+                text:"Rendering Chart with dataPoints from External JSON"
+            },
+            data: [{
+                type: "pie",
+                dataPoints : dataPoints,
+            }]
+        });
+        $.getJSON("../hasil_labeling/result_sanjay", function(data) {  
+            $.each(data, function(key, value){
+                dataPoints.push({x: value[0], y: parseInt(value[1])});
+            });	
+            chart.render();
+        });
+        }
+        </script>    
     <script>
         window.onload = function() {
 
@@ -994,6 +1016,7 @@
             <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
             <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
             <script src="assets/vendor/venobox/venobox.min.js"></script>
+            <script src="assets/js/chart.js"></script>
 
             <!-- Template Main JS File -->
             <script src="assets/js/main.js"></script>
