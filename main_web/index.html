@@ -64,7 +64,7 @@
                 }]
             });
             $(document).ready(function() {
-                $.getJSON("../hasil_labeling/result_sanjay.json", function(tmp) {
+                $.getJSON("../hasil_labeling/result_final_labeling.json", function(tmp) {
                     $.each(tmp, function(i1, v) {
                         $.each(v.completions, function(i2, vc) {
                             $.each(vc.result, function(i3, vr) {
