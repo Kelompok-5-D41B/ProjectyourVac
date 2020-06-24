@@ -46,76 +46,63 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-    <script type = "text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="canvasjs/jquery.canvasjs.min.js"></script>
     <script type="text/javascript">
-        window.onload = function () {
-        var dataPoints = [];
-        var chart = new CanvasJS.Chart("chartContainer",{
-            title:{
-                text:"Rendering Chart with dataPoints from External JSON"
-            },
-            data: [{
-                type: "pie",
-                dataPoints : dataPoints,
-            }]
-        });
-        $.getJSON("../hasil_labeling/result_sanjay", function(data) {  
-            $.each(data, function(key, value){
-                dataPoints.push({x: value[0], y: parseInt(value[1])});
-            });	
-            chart.render();
-        });
-        }
-        </script>    
-    <script>
         window.onload = function() {
-
+            var ke = ko = al = sb = parseInt(0);
+            var dataPoints = [];
             var chart = new CanvasJS.Chart("chartContainer", {
-                theme: "light2", // "light1", "light2", "dark1", "dark2"
-                exportEnabled: true,
-                animationEnabled: true,
                 title: {
-                    text: "Desktop Browser Market Share in 2016"
+                    text: "Rendering Chart with dataPoints from External JSON"
                 },
                 data: [{
                     type: "pie",
-                    startAngle: 25,
-                    toolTipContent: "<b>{label}</b>: {y}%",
-                    showInLegend: "true",
-                    legendText: "{label}",
-                    indexLabelFontSize: 16,
-                    indexLabel: "{label} - {y}%",
-                    dataPoints: [{
-                        y: 51.08,
-                        label: "Chrome"
-                    }, {
-                        y: 27.34,
-                        label: "Internet Explorer"
-                    }, {
-                        y: 10.62,
-                        label: "Firefox"
-                    }, {
-                        y: 5.02,
-                        label: "Microsoft Edge"
-                    }, {
-                        y: 4.07,
-                        label: "Safari"
-                    }, {
-                        y: 1.22,
-                        label: "Opera"
-                    }, {
-                        y: 0.44,
-                        label: "Others"
-                    }]
+                    dataPoints: dataPoints,
                 }]
             });
-            chart.render();
-
-        }
+            $(document).ready(function() {
+                $.getJSON("../hasil_labeling/result_sanjay.json", function(tmp) {
+                    $.each(tmp, function(i1, v) {
+                        $.each(v.completions, function(i2, vc) {
+                            $.each(vc.result, function(i3, vr) {
+                                $.each(vr.value.polygonlabels, function(i4, vv) {
+                                    if (vv == "Keluarga") {
+                                        ke++;
+                                    } else if (vv == "Kota") {
+                                        ko++;
+                                    } else if (vv == "Alam") {
+                                        al++
+                                    } else {
+                                        sb++;
+                                    }
+                                });
+                            });
+                        });
+                    });
+                    dataPoints.push({
+                        y: parseInt(ke),
+                        label: "Keluarga"
+                    });
+                    dataPoints.push({
+                        y: parseInt(ko),
+                        label: "Kota"
+                    });
+                    dataPoints.push({
+                        y: parseInt(al),
+                        label: "Alam"
+                    });
+                    dataPoints.push({
+                        y: parseInt(sb),
+                        label: "Seni Budaya"
+                    });
+                    chart.render();
+                });
+            });
+        };
     </script>
-
-
 </head>
 
 <body>
@@ -161,11 +148,6 @@
             </div>
 
             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-
-            <center>
-                <img src="csv/coba2.jpeg" alt="Masih Contoh">
-            </center>
 
         </div>
 
