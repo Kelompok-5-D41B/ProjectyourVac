@@ -1,5 +1,3 @@
-![Logo yourVac](main_web/img/logo/profile.png)
-
 # Pendahuluan
 
 Kita sebagai manusia membutuhkan waktu untuk istirahat ataupun refreshing dari kegiatan yang padat. Sebagian manusia memanfaatkan waktu istirahat tersebut biasanya dengan berkunjung atau berwisata ke suatu tempat bersama teman atau keluarga. Mungkin pada saat berkunjung, kita membutuhkan informasi beberapa tempat yang dibutuhkan, seperti: tempat penginapan dan juga tempat rekreasi.
@@ -22,6 +20,8 @@ Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berje
 | Johan Salusu            | Designer   |
 | Giusty Fadh Wiranapoera | Programmer |
 
-###### Proses 1 terdapat pada folder hasil_scraping
-###### Proses 2 terdapat pada folder hasil_labeling
-###### Proses 3 terdapat pada folder main_web
+#### Proses 1 terdapat pada folder hasil_scraping
+#### Proses 2 terdapat pada folder hasil_labeling
+#### Proses 3 terdapat pada folder main_web
+
+![Logo yourVac](main_web/img/logo/profile.png)
