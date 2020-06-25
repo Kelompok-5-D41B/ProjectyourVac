@@ -55,12 +55,12 @@
         window.onload = function() {
             var ke = ko = al = sb = parseInt(0);
             var dataPoints = [];
-            var chart = new CanvasJS.Chart("chartContainer", {
+            var chart = new CanvasJS.Chart("chart2", {
                 title: {
                     text: "HASIL ANOTASI DATA"
                 },
                 data: [{
-                    type: "pie",
+                    type: "doughnut",
                     dataPoints: dataPoints,
                 }]
             });
@@ -214,19 +214,8 @@
                 <p>Visitor reviews and visitor statistics from the results of data annotations.</p>
             </div>
 
+            <div id="chart2" style="height: 300px; width: 100%;"></div>
             <div id="chart" style="height: 300px; width: 100%;"></div>
-
-        </div>
-
-        <div class="container">
-
-            <div class="section-title">
-                <span>Data Annotation</span>
-                <h2>Graphic</h2>
-                <p>Visitor reviews and visitor statistics from the results of data annotations.</p>
-            </div>
-
-            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
 
         </div>
 
