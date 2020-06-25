@@ -59,16 +59,15 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="index.html">Hasil Grafik</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="galeri_image.html">Galeri Image</a></li>
+                <!-- <li><a href="index.html">Hasil Grafik</a></li>
                 <li><a href="index.html">Kategori</a></li>
                 <li><a href="index.html">Article</a></li>
-                <li><a href="index.html">Our Team</a></li>
-                <li><a href="galeri_image.html">Galeri Image</a></li>
-
+                <li><a href="index.html">Our Team</a></li>  -->
             </ul>
         </nav>
-        
+
     </header>
     <!-- End Header -->
 
@@ -76,7 +75,7 @@
 <script>
     $(document).ready(function() {
         $('#btShowImage').click(function() {
-            $.getJSON("hasil_labeling_trip_advisor.json", function(data) {
+            $.getJSON("galeri_image_anotasi/hasil_labeling_trip_advisor.json", function(data) {
 
                 var arrItems = []; // The array to store JSON items.
                 $.each(data, function(index, value) {
@@ -132,7 +131,7 @@
 <script>
     $(document).ready(function() {
         $('#btShowImage2').click(function() {
-            $.getJSON("hasil_labeling_traveloka.json", function(data) {
+            $.getJSON("galeri_image_anotasi/hasil_labeling_traveloka.json", function(data) {
 
                 var arrItems = []; // The array to store JSON items.
                 $.each(data, function(index, value) {
@@ -202,8 +201,11 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<p><center><p><input type="button" class="btn btn-dark" id="btShowImage" value="Show Images Trip Advisor" />
-<input type="button" class="btn btn-dark" id="btShowImage2" value="Show Images Traveloka" /></p></center>
-<div id='showData'></div>
+<p>
+    <center>
+        <p><input type="button" class="btn btn-dark" id="btShowImage" value="Show Images Trip Advisor" />
+            <input type="button" class="btn btn-dark" id="btShowImage2" value="Show Images Traveloka" /></p>
+    </center>
+    <div id='showData'></div>
 
 </html>
