@@ -103,6 +103,71 @@
             });
         };
     </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            var kl = rs = cf = ps = fd = rm = parseInt(0);
+            var dataPoints = [];
+            var chart = new CanvasJS.Chart("chartContainer2", {
+                title: {
+                    text: "HASIL ANOTASI DATA"
+                },
+                data: [{
+                    type: "pie",
+                    dataPoints: dataPoints,
+                }]
+            });
+            $(document).ready(function() {
+                $.getJSON("../hasil_labeling/result_final_labeling2.json", function(tmp) {
+                    $.each(tmp, function(i1, v) {
+                        $.each(v.completions, function(i2, vc) {
+                            $.each(vc.result, function(i3, vr) {
+                                $.each(vr.value.polygonlabels, function(i4, vv) {
+                                    if (vv == "KakiLima") {
+                                        kl++;
+                                    } else if (vv == "Restoran") {
+                                        rs++;
+                                    } else if (vv == "Cafe") {
+                                        cf++;
+                                    } else if (vv == "Prasmanan") {
+                                        ps++;
+                                    } else if (vs == "FineDining") {
+                                        fd++;
+                                    } else {
+                                        rm++;
+                                    }
+                                });
+                            });
+                        });
+                    });
+                    dataPoints.push({
+                        y: parseInt(kl),
+                        label: "KakiLima"
+                    });
+                    dataPoints.push({
+                        y: parseInt(rs),
+                        label: "Restoran"
+                    });
+                    dataPoints.push({
+                        y: parseInt(cf),
+                        label: "Cafe"
+                    });
+                    dataPoints.push({
+                        y: parseInt(ps),
+                        label: "Prasmanan"
+                    });
+                    dataPoints.push({
+                        y: parseInt(fd),
+                        label: "FineDining"
+                    });
+                    dataPoints.push({
+                        y: parseInt(rm),
+                        label: "RotiManisan"
+                    });
+                    chart.render();
+                });
+            });
+        };
+    </script>
 </head>
 
 <body>
@@ -148,6 +213,7 @@
             </div>
 
             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+            <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
 
         </div>
 
@@ -211,7 +277,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-img"><img src="assets/img/portfolio/keluarga1.jpg"  class="img-fluid" alt=""></div>
+                    <div class="portfolio-img"><img src="assets/img/portfolio/keluarga1.jpg" class="img-fluid" alt=""></div>
                     <div class="portfolio-info">
                         <h4></h4>
                         <a href="assets/img/portfolio/keluarga1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Show Detail"><i class="bx bx-plus"></i></a>
@@ -259,7 +325,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-active">
-                    <div class="portfolio-img"><img src="assets/img/portfolio/alam2.jfif"  class="img-fluid" alt=""></div>
+                    <div class="portfolio-img"><img src="assets/img/portfolio/alam2.jfif" class="img-fluid" alt=""></div>
                     <div class="portfolio-info">
                         <h4></h4>
                         <a href="assets/img/portfolio/alam2.jfif" data-gall="portfolioGallery" class="venobox preview-link" title="Show Detail"><i class="bx bx-plus"></i></a>
@@ -360,7 +426,7 @@
                         <img class="img-fluid" src="img/article/taman_lembah_dewata.JPG" alt="Taman Lembah Dewata">
                     </a>
                     <div class="portfolio-caption">
-                          <h4>Taman Lembah Dewata</h4>
+                        <h4>Taman Lembah Dewata</h4>
                         <p class="text-muted">Lembang</p>
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">Read More</a>
                     </div>
