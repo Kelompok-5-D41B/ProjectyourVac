@@ -50,17 +50,11 @@
     <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="canvasjs/jquery.canvasjs.min.js"></script>
-
-    
 </head>
-
 <footer id="footer"></footer>
-
 <body>
-
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top  d-flex justify-content-center align-items-center">
-
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -71,10 +65,8 @@
                 <li><a href="index.html">Our Team</a></li>  -->
             </ul>
         </nav>
-
     </header>
     <!-- End Header -->
-
     <p>
         <center>
             <input type="button" class="btn btn-dark" id="btShowImage" value="Trip Advisor" />
@@ -82,14 +74,11 @@
         </center>
         <div id='showData'></div>
     </p>
-
 </body>
-
 <script>
     $(document).ready(function() {
         $('#btShowImage').click(function() {
             $.getJSON("galeri_image_anotasi/hasil_labeling_trip_advisor.json", function(data) {
-
                 var arrItems = []; // The array to store JSON items.
                 $.each(data, function(index, value) {
                     arrItems.push(value); // Push values in the array.
@@ -104,11 +93,8 @@
                         }
                     }
                 }
-
                 var table = document.createElement("table");
-
                 var tr = table.insertRow(-1); // Table row.
-
                 for (var i = 0; i < col.length; i++) {
                     var th = document.createElement("th"); // Table header.
                     th.innerHTML = col[i];
