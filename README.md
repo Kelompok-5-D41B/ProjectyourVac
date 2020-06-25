@@ -1,3 +1,5 @@
+![Logo yourVac](main_web/img/logo/profile.png)
+
 # Pendahuluan
 
 Kita sebagai manusia membutuhkan waktu untuk istirahat ataupun refreshing dari kegiatan yang padat. Sebagian manusia memanfaatkan waktu istirahat tersebut biasanya dengan berkunjung atau berwisata ke suatu tempat bersama teman atau keluarga. Mungkin pada saat berkunjung, kita membutuhkan informasi beberapa tempat yang dibutuhkan, seperti: tempat penginapan dan juga tempat rekreasi.
