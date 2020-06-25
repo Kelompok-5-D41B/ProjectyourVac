@@ -1,6 +1,6 @@
 # Pendahuluan
 
-Manusia membutuhkan waktu untuk istirahat ataupun <i>refreshing</i> dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut biasanya dengan berwisata ke suatu tempat bersama teman atau keluarganya. Mungkin pada saat berwisata, mereka membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan: tempat penginapan, tempat rekreasi, dan juga tempat makan. Namun, masih banyak orang yang bingung untuk mencari atau mengetahui informasi yang tepat karena mereka belum ke tempat tersebut sebelumnya.
+Manusia membutuhkan waktu untuk istirahat ataupun <i>refreshing</i> dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut, biasanya dengan berwisata ke suatu tempat bersama teman atau keluarganya. Mungkin pada saat berwisata, mereka membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan: tempat penginapan, tempat rekreasi, dan juga tempat makan. Namun, masih banyak orang yang bingung untuk mencari atau mengetahui informasi yang tepat karena mereka belum ke tempat tersebut sebelumnya.
 
 Di sisi lain, perkembangan teknologi semakin maju dengan adanya internet. Internet sangat membantu manusia untuk mencari dan mengetahui suatu informasi. Situs web (<i>website</i>) merupakan salah satu fasilitas yang dapat diakses melalui internet. Suatu situs web dapat memuat banyak informasi berupa gambar, teks, video, maupun audio.
 
@@ -8,7 +8,7 @@ Dengan demikian, penulis selaku <i>leader</i> memilih untuk melakukan anotasi da
 
 ## Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik “Anotasi Data Tempat Wisata di Bandung Raya”.
 
-### Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN | Kelompok 5 (4L)
+### Tugas Besar Anotasi Data Proyek 1 | D-4 1B Teknik Informatika, Politeknik Negeri Bandung | Kelompok 5 (4L)
 
 | Nama                    | Role       |
 | ----------------------- | ---------- |
@@ -17,7 +17,7 @@ Dengan demikian, penulis selaku <i>leader</i> memilih untuk melakukan anotasi da
 | Sanjaya Wisnu Ramadhan  | Analyst    |
 | Wafi Khoerun N.         | Analyst    |
 | M. Syahid Abdurrahman   | Designer   |
-| Johan Salusu            | Designer   |
+| Johan H. Salusu         | Designer   |
 | Giusty Fadh Wiranapoera | Programmer |
 
 #### Proses 1 terdapat pada folder hasil_scraping
