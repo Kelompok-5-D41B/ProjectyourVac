@@ -4,7 +4,7 @@ Kita sebagai manusia membutuhkan waktu untuk istirahat ataupun refreshing dari s
 
 Di sisi lain perkembangan teknologi semakin maju, dan ada yang dinamakan internet. Internet sangat membantu kita untuk mencari dan mengetahui suatu informasi. Website merupakan salah satu fasilitas yang berada pada internet dan dapat diakses oleh internet. Suatu website dapat memuat banyak informasi berupa gambar, teks, video, maupun audio.
 
-Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berjenis segmentation dan categorization yang didapat dari hasil scraping beberapa website wisata seperti traveloka dan artikel Kota <b>Bandung</b>. Data tersebut ditinjau dari beberapa kriteria/kategori dan akan disajikan dalam bentuk data chart. Pemilihan data ini bertujuan untuk memudahkan user dalam pemilihan tempat wisata yang ada di Kota Bandung. Dan juga diharapkan user bisa mendapatkan banyak informasi seperti artikel, gambar, dan lain-lain.
+Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berjenis segmentation dan categorization berupa gambar yang didapat dari hasil scraping beberapa website wisata seperti traveloka dan artikel Kota <b>Bandung</b>. Data tersebut akan ditinjau menjadi beberapa kriteria/kategori dan akan disajikan dalam bentuk data chart. Pemilihan data ini bertujuan untuk memudahkan user dalam pemilihan tempat wisata yang ada di Kota Bandung. Dan juga diharapkan user bisa mendapatkan banyak informasi seperti artikel, gambar, dan lain-lain.
 
 ## Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik “Anotasi Data Tempat Wisata di Kota Bandung”.
 
