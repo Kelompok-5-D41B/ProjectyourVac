@@ -50,6 +50,7 @@
     <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="canvasjs/jquery.canvasjs.min.js"></script>
+
     <script type="text/javascript">
         window.onload = function() {
             var ke = ko = al = sb = parseInt(0);
@@ -103,18 +104,18 @@
             });
         };
     </script>
+
     <script type="text/javascript">
         window.onload = function() {
             var kl = rs = cf = ps = fd = rm = parseInt(0);
-            var dataPoints1 = [];
-            var chart = new CanvasJS.Chart("chartContainer2", {
-                animationEnabled: true,
+            var data = [];
+            var chart = new CanvasJS.Chart("chart", {
                 title: {
                     text: "HASIL ANOTASI DATA 2"
                 },
                 data: [{
-                    type: "doughnut",
-                    dataPoints1: dataPoints1,
+                    type: "pie",
+                    data: data,
                 }]
             });
             $(document).ready(function() {
@@ -140,27 +141,27 @@
                             });
                         });
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(kl),
                         label: "KakiLima"
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(rs),
                         label: "Restoran"
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(cf),
                         label: "Cafe"
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(ps),
                         label: "Prasmanan"
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(fd),
                         label: "FineDining"
                     });
-                    dataPoints.push({
+                    data.push({
                         y: parseInt(rm),
                         label: "RotiManisan"
                     });
@@ -212,7 +213,7 @@
                 <h2>Graphic</h2>
                 <p>Visitor reviews and visitor statistics from the results of data annotations.</p>
                 <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-                <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+                <div id="chart" style="height: 300px; width: 100%;"></div>
             </div>
 
         </div>
