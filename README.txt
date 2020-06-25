@@ -1,28 +1,4 @@
-![alt text](main_web\img\logo\profile.png)                                                                                                                                      
-                                                                                                                                      
-                                                                         VVVVVVVV           VVVVVVVV                                  
-                                                                         V::::::V           V::::::V                                  
-                                                                         V::::::V           V::::::V                                  
-                                                                         V::::::V           V::::::V                                  
-yyyyyyy           yyyyyyy ooooooooooo   uuuuuu    uuuuuu rrrrr   rrrrrrrrrV:::::V           V:::::Vaaaaaaaaaaaaa      cccccccccccccccc
- y:::::y         y:::::yoo:::::::::::oo u::::u    u::::u r::::rrr:::::::::rV:::::V         V:::::V a::::::::::::a   cc:::::::::::::::c
-  y:::::y       y:::::yo:::::::::::::::ou::::u    u::::u r:::::::::::::::::rV:::::V       V:::::V  aaaaaaaaa:::::a c:::::::::::::::::c
-   y:::::y     y:::::y o:::::ooooo:::::ou::::u    u::::u rr::::::rrrrr::::::rV:::::V     V:::::V            a::::ac:::::::cccccc:::::c
-    y:::::y   y:::::y  o::::o     o::::ou::::u    u::::u  r:::::r     r:::::r V:::::V   V:::::V      aaaaaaa:::::ac::::::c     ccccccc
-     y:::::y y:::::y   o::::o     o::::ou::::u    u::::u  r:::::r     rrrrrrr  V:::::V V:::::V     aa::::::::::::ac:::::c             
-      y:::::y:::::y    o::::o     o::::ou::::u    u::::u  r:::::r               V:::::V:::::V     a::::aaaa::::::ac:::::c             
-       y:::::::::y     o::::o     o::::ou:::::uuuu:::::u  r:::::r                V:::::::::V     a::::a    a:::::ac::::::c     ccccccc
-        y:::::::y      o:::::ooooo:::::ou:::::::::::::::uur:::::r                 V:::::::V      a::::a    a:::::ac:::::::cccccc:::::c
-         y:::::y       o:::::::::::::::o u:::::::::::::::ur:::::r                  V:::::V       a:::::aaaa::::::a c:::::::::::::::::c
-        y:::::y         oo:::::::::::oo   uu::::::::uu:::ur:::::r                   V:::V         a::::::::::aa:::a cc:::::::::::::::c
-       y:::::y            ooooooooooo       uuuuuuuu  uuuurrrrrrr                    VVV           aaaaaaaaaa  aaaa   cccccccccccccccc
-      y:::::y                                                                                                                         
-     y:::::y                                                                                                                          
-    y:::::y                                                                                                                           
-   y:::::y                                                                                                                            
-  yyyyyyy
-
-Pendahuluan
+#Pendahuluan
 
 Kita sebagai manusia membutuhkan waktu untuk istirahat ataupun refreshing dari kegiatan yang padat. Sebagian manusia memanfaatkan waktu istirahat tersebut biasanya dengan berkunjung atau berwisata ke suatu tempat bersama teman atau keluarga. Mungkin pada saat berkunjung, kita membutuhkan informasi beberapa tempat yang dibutuhkan, seperti: tempat penginapan dan juga tempat rekreasi.
 
@@ -30,7 +6,7 @@ Namun masih banyak orang yang bingung untuk mencari atau mengetahui hal tersebut
 
 Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berjenis categorization yang didapat dari hasil scraping beberapa website wisata di Bandung dan diimplementasikan ke dalam sebuah website kelompok kami. Pemilihan data ini bertujuan untuk memudahkan user atau pengunjung dalam pemilihan tempat wisata yang diinginkan dan ditinjau dari beberapa kriteria dan juga statistik data. Dan juga diharapkan user bisa mendapatkan banyak informasi seperti artikel, gambar, dan juga review suatu tempat.
 
-Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik ìAnotasi Data Tempat Wisata di Kota Bandungî.
+Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik ‚ÄúAnotasi Data Tempat Wisata di Kota Bandung‚Äù.
 
 Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN
 
