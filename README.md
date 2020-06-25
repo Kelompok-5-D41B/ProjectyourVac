@@ -8,19 +8,7 @@ Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berje
 
 ## Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik “Anotasi Data Tempat Wisata di Kota Bandung”.
 
-### Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN
-
-#### Manager		: Ade Hodijah, M.T.
-#### Leader		: Sabar Muhamad Itikap
-#### Analyst		: Sanjaya Wisnu Ramadhan
-#### Analyst		: Muh. Syahid Abdurrahman
-#### Designer	: Wafi Khoerun N.
-#### Designer	: Johan Salusu
-#### Programmer	: Giusty Fadh Wiranapoera
-
-###### Proses 1 terdapat pada folder hasil_scraping
-###### Proses 2 terdapat pada folder hasil_labeling
-###### Proses 3 terdapat pada folder main_web
+### Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN | Kelompok 5 (4L)
 
 | Nama                    | Role       |
 | ----------------------- | ---------- |
@@ -31,3 +19,7 @@ Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berje
 | M. Syahid Abdurrahman   | Designer   |
 | Johan Salusu            | Designer   |
 | Giusty Fadh Wiranapoera | Programmer |
+
+###### Proses 1 terdapat pada folder hasil_scraping
+###### Proses 2 terdapat pada folder hasil_labeling
+###### Proses 3 terdapat pada folder main_web
