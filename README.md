@@ -1,23 +1,23 @@
 # Pendahuluan
 
-Kita sebagai manusia membutuhkan waktu untuk istirahat ataupun refreshing dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut biasanya dengan berwisata ke suatu tempat bersama teman atau keluarganya. Mungkin pada saat berwisata, kita membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan, seperti: tempat penginapan, tempat rekreasi dan juga tempat makan. Namun masih banyak orang yang kebingungan untuk mencari atau mengetahui informasi yang tepat dikarenakan mungkin dia pertama kali ke tempat tersebut. 
+Manusia membutuhkan waktu untuk istirahat ataupun <i>refreshing</i> dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut, biasanya dengan berwisata ke suatu tempat bersama teman atau keluarga. Saat akan berwisata, mereka membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan: tempat penginapan, tempat rekreasi, dan tempat makan. Namun, masih banyak orang yang bingung untuk mencari atau mengetahui informasi yang tepat karena mereka belum ke tempat tersebut sebelumnya.
 
-Di sisi lain perkembangan teknologi semakin maju, dan ada yang dinamakan internet. Internet sangat membantu kita untuk mencari dan mengetahui suatu informasi. Website merupakan salah satu fasilitas yang berada pada internet dan dapat diakses oleh internet. Suatu website dapat memuat banyak informasi berupa gambar, teks, video, maupun audio.
+Di sisi lain, perkembangan teknologi semakin maju dengan adanya internet. Internet sangat membantu manusia untuk mencari dan mengetahui suatu informasi. Situs web (<i>website</i>) merupakan salah satu fasilitas yang dapat diakses melalui internet. Suatu situs web dapat memuat banyak informasi berupa gambar, teks, video, maupun audio.
 
-Dengan demikian penulis selaku leader memilih untuk melakukan anotasi data berjenis segmentation dan categorization yang didapat dari hasil scraping beberapa website wisata seperti traveloka dan artikel Kota <b>Bandung</b>. Data tersebut ditinjau dari beberapa kriteria/kategori dan akan disajikan dalam bentuk data chart. Pemilihan data ini bertujuan untuk memudahkan user dalam pemilihan tempat wisata yang ada di Kota Bandung. Dan juga diharapkan user bisa mendapatkan banyak informasi seperti artikel, gambar, dan lain-lain.
+Dengan demikian, penulis selaku <i>leader</i> memilih untuk melakukan anotasi data berjenis <i>segmentation</i> dan <i>categorization</i> yang didapat dari hasil <i>scraping</i> beberapa situs web wisata, seperti Traveloka dan artikel <b>Bandung</b> Raya. Data tersebut ditinjau dari beberapa kriteria/kategori dan akan disajikan dalam bentuk grafik data (<i>data chart</i>). Pemilihan data ini bertujuan untuk memudahkan pengguna saat memilih tempat wisata yang berada di wilayah Bandung Raya. Diharapkan juga pengguna bisa mendapatkan banyak informasi, seperti artikel, gambar, dan lain-lain.
 
-## Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik “Anotasi Data Tempat Wisata di Kota Bandung”.
+## Tugas ini ditujukan untuk memenuhi tugas besar mata kuliah Proyek 1, dan penulis memilih topik “Anotasi Data Tempat Wisata di Bandung Raya”.
 
-### Tugas Besar Anotasi Data Proyek 1 | D41B Teknik Informatika POLBAN | Kelompok 5 (4L)
+### Tugas Besar Anotasi Data Proyek 1 | D-4 1B Teknik Informatika, Politeknik Negeri Bandung | Kelompok 5 (4L)
 
 | Nama                    | Role       |
 | ----------------------- | ---------- |
 | Ade Hodijah, M.T.       | Manager    |
 | Sabar Muhamad Itikap    | Leader     |
 | Sanjaya Wisnu Ramadhan  | Analyst    |
-| Wafi Khoerun            | Analyst    |
+| Wafi Khoerun N.         | Analyst    |
 | M. Syahid Abdurrahman   | Designer   |
-| Johan Salusu            | Designer   |
+| Johan H. Salusu         | Designer   |
 | Giusty Fadh Wiranapoera | Programmer |
 
 #### Proses 1 terdapat pada folder hasil_scraping
