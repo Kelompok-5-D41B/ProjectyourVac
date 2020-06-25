@@ -103,17 +103,17 @@
             });
         };
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         window.onload = function() {
             var kl = rs = cf = ps = fd = rm = parseInt(0);
-            var dataPoints2 = [];
+            var dataPoints = [];
             var chart = new CanvasJS.Chart("chartContainer2", {
                 title: {
                     text: "HASIL ANOTASI DATA"
                 },
                 data: [{
                     type: "pie",
-                    dataPoints2: dataPoints2,
+                    dataPoints: dataPoints,
                 }]
             });
             $(document).ready(function() {
@@ -139,27 +139,27 @@
                             });
                         });
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(kl),
                         label: "KakiLima"
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(rs),
                         label: "Restoran"
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(cf),
                         label: "Cafe"
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(ps),
                         label: "Prasmanan"
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(fd),
                         label: "FineDining"
                     });
-                    dataPoints2.push({
+                    dataPoints.push({
                         y: parseInt(rm),
                         label: "RotiManisan"
                     });
@@ -167,7 +167,7 @@
                 });
             });
         };
-    </script>
+    </script> -->
 </head>
 
 <body>
@@ -213,9 +213,7 @@
             </div>
 
             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-            <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
-
-        </div>
+            <!-- <div id="chartContainer2" style="height: 300px; width: 100%;"></div> -->
 
         </div>
     </section>
