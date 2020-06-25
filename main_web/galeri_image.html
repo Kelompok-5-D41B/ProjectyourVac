@@ -1,38 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Galeri Anotasi Data</title>
-    <script src="jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <style>
-        table,
-        input {
-            width: 300px;
-            font: 17px Calibri;
-        }
-        
-        table,
-        th,
-        td {
-            border: solid 1px #DDD;
-            border-collapse: collapse;
-            padding: 2px 3px;
-            text-align: center;
-        }
-        
-        table img {
-            border: none;
-            width: 51px;
-            height: 51px;
-        }
-    </style>
+    <title>yourVac</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Laura - v2.0.0
+  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="canvasjs/jquery.canvasjs.min.js"></script>
 </head>
 
 <body>
-    <p><input type="button" id="btShowImage" value="Click to Show Images Trip Advisor" /></p>
-    <p><input type="button" id="btShowImage2" value="Click to Show Images Traveloka" /></p>
-    <div id='showData'></div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top  d-flex justify-content-center align-items-center">
+
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Hasil Grafik</a></li>
+                <li><a href="index.html">Kategori</a></li>
+                <li><a href="index.html">Article</a></li>
+                <li><a href="index.html">Our Team</a></li>
+                <li><a href="main_web/galeri_image.html">Galeri Image</a></li>
+
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- End Header -->
+
 </body>
 <script>
     $(document).ready(function() {
@@ -145,5 +184,26 @@
         });
     });
 </script>
+<footer id="footer">
+</footer>
+<!-- End Footer -->
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/js/chart.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<p><center><p><input type="button" class="btn btn-dark" id="btShowImage" value="Show Images Trip Advisor" />
+<input type="button" class="btn btn-dark" id="btShowImage2" value="Show Images Traveloka" /></p></center>
+<div id='showData'></div>
 
 </html>
