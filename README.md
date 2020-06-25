@@ -1,6 +1,6 @@
 # Pendahuluan
 
-Manusia membutuhkan waktu untuk istirahat ataupun <i>refreshing</i> dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut, biasanya dengan berwisata ke suatu tempat bersama teman atau keluarganya. Mungkin pada saat berwisata, mereka membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan: tempat penginapan, tempat rekreasi, dan juga tempat makan. Namun, masih banyak orang yang bingung untuk mencari atau mengetahui informasi yang tepat karena mereka belum ke tempat tersebut sebelumnya.
+Manusia membutuhkan waktu untuk istirahat ataupun <i>refreshing</i> dari segala aktivitas yang ada. Beberapa orang memanfaatkan waktu tersebut, biasanya dengan berwisata ke suatu tempat bersama teman atau keluarga. Saat akan berwisata, mereka membutuhkan informasi yang tepat dan akurat untuk beberapa tempat yang dibutuhkan: tempat penginapan, tempat rekreasi, dan tempat makan. Namun, masih banyak orang yang bingung untuk mencari atau mengetahui informasi yang tepat karena mereka belum ke tempat tersebut sebelumnya.
 
 Di sisi lain, perkembangan teknologi semakin maju dengan adanya internet. Internet sangat membantu manusia untuk mencari dan mengetahui suatu informasi. Situs web (<i>website</i>) merupakan salah satu fasilitas yang dapat diakses melalui internet. Suatu situs web dapat memuat banyak informasi berupa gambar, teks, video, maupun audio.
 
