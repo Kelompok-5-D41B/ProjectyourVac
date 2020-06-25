@@ -1,4 +1,4 @@
-                                                                                                                                      
+![alt text](main_web\img\logo\profile.png)                                                                                                                                      
                                                                                                                                       
                                                                          VVVVVVVV           VVVVVVVV                                  
                                                                          V::::::V           V::::::V                                  
