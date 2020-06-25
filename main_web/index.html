@@ -108,14 +108,14 @@
     <script type="text/javascript">
         window.onload = function() {
             var kl = rs = cf = ps = fd = rm = parseInt(0);
-            var data = [];
+            var dataPoints = [];
             var chart = new CanvasJS.Chart("chart", {
                 title: {
                     text: "HASIL ANOTASI DATA 2"
                 },
                 data: [{
                     type: "pie",
-                    data: data,
+                    dataPoints: dataPoints,
                 }]
             });
             $(document).ready(function() {
@@ -132,7 +132,7 @@
                                         cf++;
                                     } else if (vv == "Prasmanan") {
                                         ps++;
-                                    } else if (vs == "FineDining") {
+                                    } else if (vv == "FineDining") {
                                         fd++;
                                     } else {
                                         rm++;
@@ -141,27 +141,27 @@
                             });
                         });
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(kl),
                         label: "KakiLima"
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(rs),
                         label: "Restoran"
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(cf),
                         label: "Cafe"
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(ps),
                         label: "Prasmanan"
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(fd),
                         label: "FineDining"
                     });
-                    data.push({
+                    dataPoints.push({
                         y: parseInt(rm),
                         label: "RotiManisan"
                     });
