@@ -15,9 +15,9 @@ Dengan demikian, penulis selaku <i>leader</i> dari kelompok ini memilih untuk me
 | Ade Hodijah, M.T.       | Manager    |
 | Sabar Muhamad Itikap    | Leader     |
 | Sanjaya Wisnu Ramadhan  | Analyst    |
-| Wafi Khoerun N.         | Analyst    |
+| Johan H. Salusu         | Analyst    |
+| Wafi Khoerun N.         | Designer   |
 | M. Syahid Abdurrahman   | Designer   |
-| Johan H. Salusu         | Designer   |
 | Giusty Fadh Wiranapoera | Programmer |
 
 #### Proses 1 terdapat pada folder hasil_scraping
