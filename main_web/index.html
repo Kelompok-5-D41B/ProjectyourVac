@@ -56,7 +56,6 @@
             var ke = ko = al = sb = parseInt(0);
             var dataPoints = [];
             var chart = new CanvasJS.Chart("chart", {
-                exportEnabled: true,
 	            animationEnabled: true,
                 title: {
                     text: "HASIL ANOTASI DATA"
@@ -106,6 +105,74 @@
             });
         };
     </script>
+
+<script type="text/javascript">
+    window.onload = function() {
+        var kl = rs = pr = rm = cf = fd = parseInt(0);
+        var dataPoints = [];
+        var chart = new CanvasJS.Chart("makan", {
+            animationEnabled: true,
+            title: {
+                text: "HASIL ANOTASI DATA"
+            },
+            data: [{
+                type: "column",
+                dataPoints: dataPoints,
+            }]
+        });
+        $(document).ready(function() {
+            $.getJSON("../hasil_labeling/result_final_labeling3.json", function(tmp) {
+                $.each(tmp, function(i1, v) {
+                    $.each(v.completions, function(i2, vc) {
+                        $.each(vc.result, function(i3, vr) {
+                            $.each(vr.value.polygonlabels, function(i4, vv) {
+                                if (kl == "KakiLima") {
+                                    kl++;
+                                } else if (rs == "Restoran") {
+                                    rs++;
+                                } else if (pr == "Prasmanan") {
+                                    pr++
+                                } else if (pr == "RotiManisan") {
+                                    rm++
+                                } else if (pr == "Cafe") {
+                                    cf++;
+                                } else {
+                                    fd++;
+                                }
+                            });
+                        });
+                    });
+                });
+                dataPoints.push({
+                    y: parseInt(kl),
+                    label: "KakiLima"
+                });
+                dataPoints.push({
+                    y: parseInt(rs),
+                    label: "Restoran"
+                });
+                dataPoints.push({
+                    y: parseInt(pr),
+                    label: "Prasmanan"
+                });
+                dataPoints.push({
+                    y: parseInt(cf),
+                    label: "Cafe"
+                });
+                dataPoints.push({
+                    y: parseInt(rm),
+                    label: "RotiManisan"
+                });
+                dataPoints.push({
+                    y: parseInt(fd),
+                    label: "FineDining"
+                });
+                chart.render();
+            });
+        });
+    };
+</script>
+    
 </head>
 
 <body>
@@ -134,7 +201,7 @@
         <div class="hero-container">
             <h1>SELAMAT DATANG DI BANDUNG!</h1>
             <!-- <h3 style="color: yellow;">Tugas Besar Anotasi Data</h3> -->
-            <p style="color: white;">yourVac merupakan media yang akan memberikan informasi dan lokasi-lokasi wisata terbaik di Bandung sesuai dengan kebutuhan dan kesukaan anda.</p>
+            <p style="color: white;">yourVac merupakan website yang akan memberikan informasi dan lokasi-lokasi wisata terbaik di Bandung sesuai dengan kebutuhan dan kesukaan anda.</p>
             <a href="#services" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
             
         </div>
@@ -153,7 +220,7 @@
                 <p>Grafik di bawah ini menjelaskan jumlah perbandingan banyak lokasi wisata berdasarkan kategori yang sudah kami persiapkan berdasarkan hasil anotasi data. Sumber data yang kami olah berupa image, dan diperoleh melalui scraping beberapa website tempat wisata, terutama di Bandung.</p>
             </div>
 
-            <!-- <div id="chart2" style="height: 300px; width: 100%;"></div> -->
+            <div id="makan" style="height: 300px; width: 100%;"></div>
             <div id="chart" style="height: 300px; width: 100%;"></div>
             <div class="section-title">
         </div>
